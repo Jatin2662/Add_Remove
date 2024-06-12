@@ -1,0 +1,101 @@
+
+
+*{
+  font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.box{
+  display : flex;
+  justify-content : center;
+  
+}
+
+section{
+  /* background-color : rebeccapurple; */
+  width : 50vw;
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  flex-direction : column;
+  gap : 20px;
+}
+
+.updation{
+  width : 100%;
+}
+
+.form{
+  /* width : 100%; */
+  display : flex;
+  justify-content : center; 
+  gap : 10px;
+  flex-direction : column;
+}
+
+.fields{
+  display : flex;
+}
+
+.field{
+  flex-grow : 1;
+  height : 30px;
+  border-radius : 7px;
+}
+
+.buttons{
+  display : flex;
+  justify-content : space-between; 
+  
+}
+
+.buttons button{
+  flex-grow : 1;
+  border-radius : 7px;
+  height : 30px;
+  background : greenyellow;
+}
+
+#error{
+  max-height : 5vw;
+  /* border : 1px solid red; */
+}
+
+/* #error div{
+  text-align : center;
+  color : red;
+  font-weight : 500;
+} */
+
+.list{
+  border : 1px solid black;
+  border-radius : 10px;
+  height : 50vh;
+  width : 50vw;
+}
+
+.list h1{
+  text-align : center;
+}
+
+.list ul{
+  list-style : none;
+  display : flex;
+  justify-content: center;
+  align-items : center;
+  flex-direction : column;
+  gap : 5px;
+}
+
+.list ul li{
+  /* background-color : red; */
+  width : 50%;
+  display : flex;
+  justify-content : space-between;
+  /* align-items : center; */
+}
+
+.remove-btn{
+  border-radius : 7px;
+  /* height : 30px; */
+  background : greenyellow;
+}
